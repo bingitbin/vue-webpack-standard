@@ -1,0 +1,1 @@
+<template src="../../App/Templates/MainTpl/MainTpl.html"></template><script src="../../App/Templates/MainTpl/MainTpl.js"></script><style lang="scss" src="../../App/Templates/MainTpl/MainTpl.scss" scoped></style>

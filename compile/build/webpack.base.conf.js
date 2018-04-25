@@ -36,7 +36,9 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve(`${device}/App`)
+      '@': resolve(`${device}/App`),
+      'Templates': resolve(`${device}/linkedvues/Templates`),
+      'Pages': resolve(`${device}/linkedvues/Pages`)
     }
   },
   module: {

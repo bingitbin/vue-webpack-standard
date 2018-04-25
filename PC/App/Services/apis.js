@@ -1,4 +1,4 @@
-import http from '@/Api/http'
+import http from '@/Services/http'
 
 export default {
   /**

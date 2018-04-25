@@ -1,14 +1,22 @@
-import HelloWorld from '@/Pages/HelloWorld'
-// import HW from '@/Pages/HW'
+// import HelloWorld from '@/Pages/HelloWorld'
+import Register from 'Pages/Register'
+import Login from 'Pages/Login'
+
 export default [
   {
     path: '/',
-    name: 'HelloWorld',
-    component: HelloWorld
+    name: 'Register',
+    component: Register
   },
   {
-    path: '/HW',
-    name: 'HW',
-    component: resolve => require(['@/Pages/HW'], resolve)
+    path: '/Login',
+    name: 'Login',
+    component: Login
   }
+  // ,
+  // {
+  //   path: '/HelloWorld',
+  //   name: 'HelloWorld',
+  //   component: resolve => require(['@/Pages/HelloWorld'], resolve)
+  // }
 ]

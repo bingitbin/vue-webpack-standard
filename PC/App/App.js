@@ -1,6 +1,7 @@
 ﻿import Vue from 'vue'
 import router from './router'
-import apis from './Api/apis'
+import apis from './Services/apis'
+import mainTpl from 'Templates/MainTpl'
 
 const $vue = Vue.prototype
 $vue.$api = apis
@@ -9,7 +10,8 @@ $vue.$api = apis
 new Vue({
   el: '#app',
   router: router,
-  // components: {app},
-  template: '<router-view/>'
+  components: {mainTpl},
+  template: '<mainTpl/>'
+  // template: '<router-view/>'
   // render: h => h(app)
 })

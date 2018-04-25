@@ -1,0 +1,1 @@
+<template src="../../App/Pages/Register/Register.html"></template><script src="../../App/Pages/Register/Register.js"></script><style lang="scss" src="../../App/Pages/Register/Register.scss" scoped></style>

@@ -88,6 +88,10 @@
 export default {
   name: 'HelloWorld',
   data () {
+    this.$api.getWebInfoById().then(_ => {
+      console.log(_)
+    })
+
     return {
       msg: 'Welcome to Your Vue.js App'
     }
