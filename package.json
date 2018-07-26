@@ -1,8 +1,8 @@
 {
-  "name": "new31project",
+  "name": "vue-webpack-standard",
   "version": "1.0.0",
-  "description": "new31project",
-  "author": "xinbin.zhang <xinbin.zhang@31huiyi.com>",
+  "description": "vue-webpack-standard",
+  "author": "xbzhang",
   "private": true,
   "scripts": {
     "dev": "node compile/build/dev-server.js",
